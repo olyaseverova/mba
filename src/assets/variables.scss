@@ -1,0 +1,43 @@
+$white: #ffffff;
+$black: #000000;
+$red: #FF3535;
+$grey: #2D2C2A;
+$light-grey: #F7F7F7;
+
+%flex-wrap {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+%flex-space {
+	display: flex;
+	justify-content: space-between;
+}
+
+%wrap-space {
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+%flex-wrap-space {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+@font-face {
+	font-family: "Styrene A Web Regular";
+	src: url(../fonts/StyreneAWeb-Regular.ttf);
+}
+
+@font-face {
+	font-family: "Styrene A Web Bold";
+	src: url(../fonts/StyreneAWeb-Bold.ttf);
+}
+
+@font-face {
+	font-family: "Styrene A Web Light";
+	src: url(../fonts/StyreneAWeb-Light.ttf);
+}
+
+$desktop-width: 1386px;

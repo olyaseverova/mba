@@ -1,0 +1,56 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+  clip-path: inset(50%);
+}
+
+body {
+  min-width: 375px;
+  margin: 0;
+  padding: 0;
+  font-family: "Styrene A Web Regular", sans-serif;
+}
+
+.ul {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.list {
+  list-style: none;
+}
+
+.headline {
+  font-weight: bold;
+  font-size: 27px;
+  line-height: 34px;
+  font-family: "Styrene A Web Bold", sans-serif;
+  
+  @media (min-width: $desktop-width) {
+    font-size: 36px;
+    line-height: 43px;
+  }
+}
+
+.none {
+  display: none;
+}
+
+.block {
+  display: block;
+}
